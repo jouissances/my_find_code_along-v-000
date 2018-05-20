@@ -9,6 +9,7 @@ def my_find(collection)
   end
 end
 
+collection = (1..100).to_a
 my_find(collection) { |x|
   x % 3 == 0 && x % 5 == 0
 }
